@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Me Quieres?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8d7da;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff4081;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff4081;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: #e0006b;
+            }
+    </style>
+</head>
+<body>
+    <h1>¿Me Quieres?</h1>
+    <p>Si te gusta lo que ves, ¡haz clic en el botón!</p>
+    <div class="button-container">
+        <button class="btn" onclick="alert('¡Sí, te quiero!')">Sí, te quiero</button>
+        <button class="btn" onclick="alert('¡Oh no! ¿Por qué no?')">No, lo siento</button>
+    </div>
+</body>
+</html>
